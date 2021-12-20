@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Salary</string>
+    <string name="mon">ПН</string>
+    <string name="tue">ВТ</string>
+    <string name="wen">СР</string>
+    <string name="thu">ЧТ</string>
+    <string name="fri">ПТ</string>
+    <string name="sut">СБ</string>
+    <string name="res">Итог</string>
+    <string name="tt">точек</string>
+    <string name="dub">по 363</string>
+    <string name="frost">холод</string>
+    <string name="second">2рейс</string>
+</resources>
