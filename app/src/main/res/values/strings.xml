@@ -8,7 +8,8 @@
     <string name="sut">СБ</string>
     <string name="res">Итог</string>
     <string name="tt">точек</string>
-    <string name="dub">по 363</string>
     <string name="frost">холод</string>
     <string name="second">2рейс</string>
+    <string name="btn">Посчитать</string>
+    <string name="btn_add">+/-</string>
 </resources>

@@ -8,6 +8,14 @@
     android:background="@color/back_grey"
     tools:context=".MainActivity">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        app:title="@string/app_name"
+        app:titleTextColor="@color/white"
+        android:background="@color/back_grey_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -44,7 +52,8 @@
             android:textAlignment="center"
             android:textSize="25sp"
             android:inputType="number"
-            android:hint="@string/dub"
+            android:hint="@string/frost"
+            android:visibility="invisible"
             android:textColorHint="@color/hint" />
 
         <EditText
@@ -56,20 +65,22 @@
             android:textAlignment="center"
             android:textSize="25sp"
             android:inputType="number"
-            android:hint="@string/frost"
+            android:hint="@string/second"
+            android:visibility="invisible"
             android:textColorHint="@color/hint" />
 
-        <EditText
-            android:id="@+id/m4"
+        <Button
+            android:id="@+id/btn_m"
             android:layout_width="50sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:inputType="number"
-            android:hint="@string/second"
-            android:textColorHint="@color/hint" />
+            android:text="@string/btn_add"/>
+
+
+
     </LinearLayout>
 
     <LinearLayout
@@ -109,7 +120,8 @@
             android:textAlignment="center"
             android:textSize="25sp"
             android:inputType="number"
-            android:hint="@string/dub"
+            android:hint="@string/frost"
+            android:visibility="invisible"
             android:textColorHint="@color/hint" />
 
         <EditText
@@ -121,20 +133,19 @@
             android:textAlignment="center"
             android:textSize="25sp"
             android:inputType="number"
-            android:hint="@string/frost"
+            android:hint="@string/second"
+            android:visibility="invisible"
             android:textColorHint="@color/hint" />
 
-        <EditText
-            android:id="@+id/t4"
+        <Button
+            android:id="@+id/btn_t"
             android:layout_width="50sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:inputType="number"
-            android:hint="@string/second"
-            android:textColorHint="@color/hint" />
+            android:text="@string/btn_add"/>
 
     </LinearLayout>
 
@@ -174,7 +185,8 @@
             android:textAlignment="center"
             android:textSize="25sp"
             android:inputType="number"
-            android:hint="@string/dub"
+            android:hint="@string/frost"
+            android:visibility="invisible"
             android:textColorHint="@color/hint" />
 
         <EditText
@@ -186,20 +198,19 @@
             android:textAlignment="center"
             android:textSize="25sp"
             android:inputType="number"
-            android:hint="@string/frost"
+            android:hint="@string/second"
+            android:visibility="invisible"
             android:textColorHint="@color/hint" />
 
-        <EditText
-            android:id="@+id/w4"
+        <Button
+            android:id="@+id/btn_w"
             android:layout_width="50sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:inputType="number"
-            android:hint="@string/second"
-            android:textColorHint="@color/hint" />
+            android:text="@string/btn_add"/>
     </LinearLayout>
 
     <LinearLayout
@@ -238,7 +249,8 @@
             android:textAlignment="center"
             android:textSize="25sp"
             android:inputType="number"
-            android:hint="@string/dub"
+            android:hint="@string/frost"
+            android:visibility="invisible"
             android:textColorHint="@color/hint" />
 
         <EditText
@@ -250,20 +262,19 @@
             android:textAlignment="center"
             android:textSize="25sp"
             android:inputType="number"
-            android:hint="@string/frost"
+            android:hint="@string/second"
+            android:visibility="invisible"
             android:textColorHint="@color/hint" />
 
-        <EditText
-            android:id="@+id/th4"
+        <Button
+            android:id="@+id/btn_th"
             android:layout_width="50sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:inputType="number"
-            android:hint="@string/second"
-            android:textColorHint="@color/hint" />
+            android:text="@string/btn_add"/>
     </LinearLayout>
 
     <LinearLayout
@@ -302,7 +313,8 @@
             android:textAlignment="center"
             android:textSize="25sp"
             android:inputType="number"
-            android:hint="@string/dub"
+            android:hint="@string/frost"
+            android:visibility="invisible"
             android:textColorHint="@color/hint" />
 
         <EditText
@@ -314,20 +326,19 @@
             android:textAlignment="center"
             android:textSize="25sp"
             android:inputType="number"
-            android:hint="@string/frost"
+            android:hint="@string/second"
+            android:visibility="invisible"
             android:textColorHint="@color/hint" />
 
-        <EditText
-            android:id="@+id/f4"
+        <Button
+            android:id="@+id/btn_f"
             android:layout_width="50sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:inputType="number"
-            android:hint="@string/second"
-            android:textColorHint="@color/hint" />
+            android:text="@string/btn_add"/>
     </LinearLayout>
 
     <LinearLayout
@@ -366,7 +377,8 @@
             android:textAlignment="center"
             android:textSize="25sp"
             android:inputType="number"
-            android:hint="@string/dub"
+            android:hint="@string/frost"
+            android:visibility="invisible"
             android:textColorHint="@color/hint" />
 
         <EditText
@@ -378,20 +390,19 @@
             android:textAlignment="center"
             android:textSize="25sp"
             android:inputType="number"
-            android:hint="@string/frost"
+            android:hint="@string/second"
+            android:visibility="invisible"
             android:textColorHint="@color/hint" />
 
-        <EditText
-            android:id="@+id/s4"
+        <Button
+            android:id="@+id/btn_s"
             android:layout_width="50sp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
             android:textAlignment="center"
             android:textSize="25sp"
-            android:inputType="number"
-            android:hint="@string/second"
-            android:textColorHint="@color/hint" />
+            android:text="@string/btn_add"/>
     </LinearLayout>
 
     <LinearLayout
@@ -433,13 +444,6 @@
             android:textAlignment="center"
             android:textSize="35sp"/>
 
-        <TextView
-            android:id="@+id/i4"
-            android:layout_width="50sp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textAlignment="center"
-            android:textSize="35sp"/>
     </LinearLayout>
 
     <LinearLayout
@@ -449,11 +453,19 @@
         android:padding="5sp">
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/tv1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:textSize="50sp"/>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="35dp"
+        android:text="@string/btn" />
 
 </LinearLayout>
